@@ -4,7 +4,8 @@ ShareList 是一个易用的网盘工具，支持快速挂载 GoogleDrive、OneD
 
 执行命令
 
-docker run -d --name sharelist -p 33001:33001 -v /your/cache:sharelist/cache -e HOST=0.0.0.0 -e PORT=33001 oldiy/sharelist:latest
+docker run -d --name sharelist -p 33001:33001 -v /your/cache:sharelist/cache -e HOST=0.0.0.0 -e PORT=33001 0
+0 125 pqguanyinli/sharelist:latest
 
 ## 目录
 * [ShareList特性](#特性)  
